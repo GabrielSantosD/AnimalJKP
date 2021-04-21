@@ -4,26 +4,92 @@
 }
 
 body {
-	font-family: Nunito;
+	background-image: url(../img/fundo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
-h1 {
-	text-align: center;
-	font: Nunito, sans-serif;
+#conteudo {
+	width: 94%;
+
+	background-color: rgba(0,0,0,.25);
+
+	border: 1px solid #404160;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+
+	margin: auto;
+	margin-bottom: 25px;
 }
 
-h3 {
+#conteudo h1 {
 	text-align: center;
-	font: Nunito, sans-serif;
+	text-decoration: underline;
+
+	font-family: 'VT323', monospace;
+	font-size: 45pt;
+
+ 	color: rgb(243, 46, 89);
 }
 
-p {
+#conteudo h2 {
 	text-align: center;
-	font: Nunito, sans-serif;
+
+	font: 1.15rem/1.35rem Nunito, sans-serif;
+
+	color: white;
+
+	margin-top: 5px;
+	margin: auto;
 }
 
-p#cons {
-	margin-top: 100px;
+#conteudo img {
+	display: block;
+
+	width: 50%;
+
+	margin: auto;
+	opacity: 0;
+}
+
+#conteudo h3 {
+	text-indent: 25px;
+	text-decoration: underline;
+
+	font: 1.85rem/1.35rem Nunito, sans-serif;
+
+	color: white;
+
+	margin-top: 20px;
+}
+
+#conteudo p {
 	text-align: center;
-	font: Nunito, sans-serif;
+
+	font: 1.00rem/1.15rem Nunito, sans-serif;
+
+	color: white;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#conteudo span {
+	color: rgb(243, 46, 89);
+}
+
+@media screen and (max-width: 980px) {
+	body{
+		background-image: url(../img/fundocell.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#conteudo h1 {
+		font-size: 26pt;
+	}
 }
