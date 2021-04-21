@@ -60,23 +60,31 @@ body {
 
 	font: 1.85rem/1.35rem Nunito, sans-serif;
 
-	color: white;
+	color: #656aff;
 
 	margin-top: 20px;
 }
 
 #conteudo p {
-	text-align: center;
-
 	font: 1.00rem/1.15rem Nunito, sans-serif;
 
+	text-indent: 10px;
 	color: white;
 
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-left: 5px;
+
+	padding: 10px;
 }
 
 #conteudo span {
+	color: rgb(243, 46, 89);
+}
+
+#conteudo a {
+	text-decoration: underline;
+	
 	color: rgb(243, 46, 89);
 }
 
@@ -91,5 +99,9 @@ body {
 
 	#conteudo h1 {
 		font-size: 26pt;
+	}
+
+	#conteudo h3 {
+		font: 1.35rem/1.35rem Nunito, sans-serif;
 	}
 }
