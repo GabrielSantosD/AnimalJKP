@@ -70,50 +70,6 @@ hr {
 	margin-bottom: 10px;
 }
 
-#conteudo h3 {
-	text-indent: 25px;
-	text-decoration: underline;
-
-	font: 1.85rem/1.35rem Nunito, sans-serif;
-	font-weight: bold;
-
-	color: #3e7fd1;
-
-	margin-top: 20px;
-}
-
-#conteudo p {
-	font: 1.00rem/1.15rem Nunito, sans-serif;
-
-	text-indent: 10px;
-	color: white;
-
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 5px;
-
-	padding: 10px;
-}
-
-#conteudo span {
-	color: rgb(243, 46, 89);
-}
-
-#conteudo a {
-	text-decoration: underline;
-	
-	color: rgb(243, 46, 89);
-}
-
-#infos {
-	width: 75%;
-
-	text-align: justify;
-
-	margin: auto;
-	margin-bottom: 50px;
-}
-
 footer {
 	background-color: rgba(0,0,0,.25);
 
@@ -134,32 +90,4 @@ footer h6 {
 
 footer span#copy {
 	font: 1.15rem/1.35rem Nunito, sans-serif;
-}
-
-@media screen and (max-width: 980px) {
-	body{
-		background-image: url(../img/fundocell.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-		background-position: center;
-	}
-
-	#conteudo h1 {
-		font-size: 26pt;
-	}
-
-	#conteudo h3 {
-		font: 1.35rem/1.35rem Nunito, sans-serif;
-	}
-
-	#conteudo img {
-		width: 75%;
-	}
-
-	#infos {
-	width: 100%;
-
-	margin: auto;
-	}
 }

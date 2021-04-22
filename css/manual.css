@@ -121,6 +121,28 @@ hr {
 	border-radius: 4px;
 }
 
+footer {
+	background-color: rgba(0,0,0,.25);
+
+	border-top: 1px solid #404160;
+
+	margin: auto;
+}
+
+footer h6 {
+	text-align: center;
+	font-family: 'VT323', monospace;
+	font-size: 18pt;
+
+	padding: 15px;
+
+	color: white;
+}
+
+footer span#copy {
+	font: 1.15rem/1.35rem Nunito, sans-serif;
+}
+
 @media screen and (max-width: 980px) {
 	body{
 		background-image: url(../img/fundocell.jpg);
