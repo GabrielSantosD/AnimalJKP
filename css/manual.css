@@ -11,6 +11,116 @@ body {
 	background-position: center;
 }
 
+
+#conteudo {
+	width: 94%;
+
+	background-color: rgba(0,0,0,.25);
+
+	border: 1px solid #404160;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+#page-top {
+	margin-bottom: 50px;
+}
+
+#page-top h1 {
+	text-align: center;
+	text-decoration: underline;
+
+	font-family: 'VT323', monospace;
+	font-size: 45pt;
+
+ 	color: white;
+}
+
+#page-top p {
+	margin-top: 0px;
+	text-align: center;
+}
+
+hr {
+	width: 50%;
+	margin: auto;
+}
+
+#how-to-play {
+	width: 75%;
+
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#conteudo h3 {
+	text-indent: 25px;
+	text-decoration: underline;
+
+	font: 1.85rem/1.35rem Nunito, sans-serif;
+	font-weight: bold;
+
+	color: #3e7fd1;
+
+	margin-top: 20px;
+}
+
+#conteudo p {
+	font: 1.00rem/1.15rem Nunito, sans-serif;
+
+	text-indent: 10px;
+	color: white;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+
+	padding: 10px;
+}
+
+#conteudo ul {
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+#conteudo li {
+	font: 1.00rem/1.15rem Nunito, sans-serif;
+	font-weight: bold;
+
+	color: white;
+
+	padding: 4px;
+}
+
+#conteudo span {
+	color: rgb(243, 46, 89);
+
+	font-weight: bold;
+}
+
+.card {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#cards p {
+	text-indent: 0px;
+	font-weight: bold;
+
+	margin: 0px;
+	padding: 4px;
+
+	width: 75%;
+}
+
+.card img {
+	width: 250px;
+	border-radius: 4px;
+}
+
 @media screen and (max-width: 980px) {
 	body{
 		background-image: url(../img/fundocell.jpg);
@@ -18,5 +128,14 @@ body {
 		background-attachment: fixed;
 		background-size: cover;
 		background-position: center;
+	}
+
+	#how-to-play {
+	width: 100%;
+	margin: auto;
+	}
+
+	.card p {
+		width: 100%;
 	}
 }
