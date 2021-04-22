@@ -31,7 +31,7 @@ body {
 	font-family: 'VT323', monospace;
 	font-size: 45pt;
 
- 	color: rgb(243, 46, 89);
+ 	color: white;
 }
 
 #conteudo h2 {
@@ -41,17 +41,23 @@ body {
 
 	color: white;
 
-	margin-top: 5px;
 	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 #conteudo img {
 	display: block;
 
-	width: 50%;
+	width: 400px;
 
 	margin: auto;
-	opacity: 0;
+
+	border-radius: 7px;
+
+	-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
 }
 
 #conteudo h3 {
@@ -59,8 +65,9 @@ body {
 	text-decoration: underline;
 
 	font: 1.85rem/1.35rem Nunito, sans-serif;
+	font-weight: bold;
 
-	color: #656aff;
+	color: #3e7fd1;
 
 	margin-top: 20px;
 }
@@ -103,5 +110,9 @@ body {
 
 	#conteudo h3 {
 		font: 1.35rem/1.35rem Nunito, sans-serif;
+	}
+
+	#conteudo img {
+		width: 75%;
 	}
 }

@@ -118,19 +118,19 @@ a {
 
 .menu li a.ativado {
 	text-decoration: underline;
-	background-color: #404160;
+	background-color: #0d1a24;
 	border-radius: 3px;
 }
 
 .menu li a.ativado:hover {
-	background-color: #404160;
+	background-color: #0d1a24;
 }
 
 .menu li a:hover {
 	text-decoration: underline;
 
 	color: #fff;
-	background-color: #404160;
+	background-color: #0d1a24;
 }
 
 @media screen and (max-width: 980px) {
@@ -152,7 +152,7 @@ a {
 		height: 100vh;
 		margin: 0px;
 		background-color: rgba(0,0,0,.5);
-		border-left: 2px solid #404160;
+		border-left: 2px solid #0d1a24;
 
 		width: 100%;
 		max-width: 250px;
@@ -169,15 +169,15 @@ a {
 	}
 
 	.menu li:hover {
-		background-color: #404160;
+		background-color: #0d1a24;
 
-		border: 1px solid #404160;
+		border: 1px solid #0d1a24;
 		border-radius: 4px;
 	}
 
 	.menu li.ativo {
-		background-color: #404160;
-		border: 1px solid #404160;
+		background-color: #0d1a24;
+		border: 1px solid #0d1a24;
 	}
 
 	.menu.active {
